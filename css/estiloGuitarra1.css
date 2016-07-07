@@ -1,0 +1,165 @@
+		html,body{
+			margin:0;
+			padding:0;
+		}
+		
+		body{
+			font: 76% arial, sans-serif; text-align:center;
+		}
+		
+		p{
+			margin:0 10px 10px; 
+			word-wrap: break-word;
+		}
+		
+		#contenedor p{
+			line-height: 30px;
+			text-align: justify;
+		}
+		
+		a{
+			display: block;
+			color: #981793;
+			padding: 10px;
+			background-color: rgb(0,0,255);
+		}
+		
+		a:link, a:visited{
+			font-weight:bold;
+			color:#FFFFFF;
+			background-color:#98bf21;
+			/*background-color: rgb(0,0,255);*/ 	
+			text-align: center;
+			text-decoration:none;
+			text-transform: uppercase;
+		}
+		
+		a:hover, a:active{
+			background-color: #7A991A;
+		}
+		
+		
+		div#contenedor{ /* =  #contenedor */
+		/*	border: 1px solid red; */
+			text-align:left;
+			width:1024px;
+			margin: 0 auto;	
+		}		
+		div#header h1{
+		/*	border: 1px dotted blue;*/
+			height: 80px;
+			line-height: 80px;
+			margin: 0;
+			padding-left: 10px;
+			background: #EEE;
+			color: #79B30B;
+		}
+		
+		div#menu {
+			width:100%;
+		}
+		
+		div#menu ul{
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+		}
+		
+		div#menu ul li{
+			display:inline-block;
+			float:left;
+		}
+		
+		div#menu ul li a{
+			display: block;
+			width: 150px;
+			background-color:#98bf21;
+		}
+		
+		div#menu ul li a:link, a:visited{
+			background-color:#98bf21;
+		}
+		
+		
+		div#menuH {
+			width:100%;
+		}
+		
+		div#menuH ul{
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+		}
+		
+		div#menuH ul li{
+			float:left;
+		}
+		
+		div#menuH ul li a{
+			display: block;
+			width: 150px;
+		}
+		
+		div#menuH ul li a:link, a:visited{
+			background-color:#707070;
+		}
+		
+		div#menuH ul li a:hover{
+			background-color:#080808 !important;
+			color:blue !important;
+		}
+		
+		
+		div#contenidoIzq{
+			padding-top:5px;
+		/*	border: 1px dashed green;*/
+            float: left;
+            width: 25%;
+            
+		}
+		
+		div#contenidoCen{
+            float: left;
+            width: 50%;
+            
+		}
+		
+		
+		div#contenidoDer{
+		/*	border: 1px double gray;*/
+			float: left;
+			width:25%;
+			height:500px;
+		}
+		div#pie{
+		/*	border: 1px dotted black;*/
+			clear:left;
+			width:100%;
+			background: #333;
+			color: #FFFFFF;
+		}
+		div#envoltura{
+			/*border: 1px dotted yellow;*/
+			float: left; 
+			width:100%;
+		}
+	
+		
+		.letraSitio{
+			font-size: 19px;
+			font-family: "Times New Roman", Times, serif;
+			color: blue;
+		}
+		
+		#imgguitar{
+			background-image:url('img/guitar.jpg');
+			background-repeat: no-repeat;
+			background-size: 80px 60px;
+			display:block;
+			width: 80%;
+			height: 25%;
+		}
+		
+		div#contenedorDer a, a:link, a:visited{
+			background-color: rgb(0,0,255); 
+		}  
